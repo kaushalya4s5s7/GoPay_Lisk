@@ -161,20 +161,20 @@ flowchart TD
         A4[Configure Payment Preferences]
 
         B1[Employee Management]
-        B2[Add Employees (Individual/CSV)]
-        B3[Manage Profiles (Name, Wallet, Salary)]
-        B4[View Payment History]
+        B2[Add Employees - Individual or CSV Upload]
+        B3[Manage Profiles - Name, Wallet, Salary]
+        B4[View Employee Payment History]
 
         C1[Payroll Processing]
         C2[Select Employees for Payment]
-        C3[Choose Token (USDC, USDT, ETH)]
-        C4[Review Exchange Rates & Totals]
+        C3[Choose Token - USDC / USDT / ETH]
+        C4[Review Exchange Rates and Totals]
         C5[Execute Bulk Payments]
 
         D1[Monitoring & Reporting]
-        D2[Track Payment Status (Real-Time)]
+        D2[Track Payment Status in Real-Time]
         D3[Export Payment Reports]
-        D4[View on Blockchain Explorers]
+        D4[View Transactions on Blockchain]
 
         A1 --> A2 --> A3 --> A4
         B1 --> B2 --> B3 --> B4
@@ -185,7 +185,7 @@ flowchart TD
     subgraph Employee [For Employees]
         E1[Receive Instant Crypto Payments]
         E2[View Payment History]
-        E3[Access Transparent, Auditable Records]
+        E3[Access Transparent Auditable Records]
         E1 --> E2 --> E3
     end
 
@@ -193,6 +193,7 @@ flowchart TD
     B1 --> C1
     C1 --> D1
     C5 --> E1
+
 ```
 
     ```
