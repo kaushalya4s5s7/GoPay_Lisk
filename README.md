@@ -150,28 +150,29 @@ GoPay/
 
 ## 📖 Usage Guide
 
+<details> <summary>💼 Employer–Employee Payroll Flow (Click to Expand)</summary>
 flowchart TD
     subgraph Employer [For Employers]
         A1[Account Setup]
-        A2[Register company account]
-        A3[Connect Web3 wallet]
-        A4[Configure payment preferences]
+        A2[Register Company Account]
+        A3[Connect Web3 Wallet]
+        A4[Configure Payment Preferences]
 
         B1[Employee Management]
-        B2[Add employees individual/CSV]
-        B3[Manage profiles name, wallet, salary]
-        B4[View payment history]
+        B2[Add Employees (Individual/CSV)]
+        B3[Manage Profiles (Name, Wallet, Salary)]
+        B4[View Payment History]
 
         C1[Payroll Processing]
-        C2[Select employees]
-        C3[Choose token USDC, USDT, ETH]
-        C4[Review rates & totals]
-        C5[Execute bulk payments]
+        C2[Select Employees for Payment]
+        C3[Choose Token (USDC, USDT, ETH)]
+        C4[Review Exchange Rates & Totals]
+        C5[Execute Bulk Payments]
 
         D1[Monitoring & Reporting]
-        D2[Track real-time status]
-        D3[Export reports]
-        D4[View on blockchain]
+        D2[Track Payment Status (Real-Time)]
+        D3[Export Payment Reports]
+        D4[View on Blockchain Explorers]
 
         A1 --> A2 --> A3 --> A4
         B1 --> B2 --> B3 --> B4
@@ -180,9 +181,9 @@ flowchart TD
     end
 
     subgraph Employee [For Employees]
-        E1[Instant crypto payments]
-        E2[View payment history]
-        E3[Transparent, auditable records]
+        E1[Receive Instant Crypto Payments]
+        E2[View Payment History]
+        E3[Access Transparent, Auditable Records]
         E1 --> E2 --> E3
     end
 
@@ -190,7 +191,7 @@ flowchart TD
     B1 --> C1
     C1 --> D1
     C5 --> E1
-
+</details>
 
 
 ### For Employers
