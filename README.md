@@ -266,13 +266,6 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🆘 Support
-
-- **Documentation**: [docs.gopay.com](https://docs.gopay.com)
-- **Issues**: [GitHub Issues](https://github.com/your-username/gopay/issues)
-- **Discord**: [Join our community](https://discord.gg/gopay)
-- **Email**: support@gopay.com
-
 ## 🗺 Roadmap
 
 ### Q1 2026
