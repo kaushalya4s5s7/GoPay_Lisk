@@ -150,6 +150,49 @@ GoPay/
 
 ## 📖 Usage Guide
 
+flowchart TD
+    subgraph Employer [For Employers]
+        A1[Account Setup]
+        A2[Register company account]
+        A3[Connect Web3 wallet]
+        A4[Configure payment preferences]
+
+        B1[Employee Management]
+        B2[Add employees individual/CSV]
+        B3[Manage profiles name, wallet, salary]
+        B4[View payment history]
+
+        C1[Payroll Processing]
+        C2[Select employees]
+        C3[Choose token USDC, USDT, ETH]
+        C4[Review rates & totals]
+        C5[Execute bulk payments]
+
+        D1[Monitoring & Reporting]
+        D2[Track real-time status]
+        D3[Export reports]
+        D4[View on blockchain]
+
+        A1 --> A2 --> A3 --> A4
+        B1 --> B2 --> B3 --> B4
+        C1 --> C2 --> C3 --> C4 --> C5
+        D1 --> D2 --> D3 --> D4
+    end
+
+    subgraph Employee [For Employees]
+        E1[Instant crypto payments]
+        E2[View payment history]
+        E3[Transparent, auditable records]
+        E1 --> E2 --> E3
+    end
+
+    A1 --> B1
+    B1 --> C1
+    C1 --> D1
+    C5 --> E1
+
+
+
 ### For Employers
 
 1. **Account Setup**
