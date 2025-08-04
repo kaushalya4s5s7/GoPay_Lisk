@@ -151,6 +151,8 @@ GoPay/
 ## 📖 Usage Guide
 
 <details> <summary>💼 Employer–Employee Payroll Flow (Click to Expand)</summary>
+
+   ```mermaid
 flowchart TD
     subgraph Employer [For Employers]
         A1[Account Setup]
@@ -191,6 +193,9 @@ flowchart TD
     B1 --> C1
     C1 --> D1
     C5 --> E1
+```
+
+    ```
 </details>
 
 
