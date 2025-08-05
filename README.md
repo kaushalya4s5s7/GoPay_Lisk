@@ -256,6 +256,46 @@ const tokensPerChain = {
 }
 ```
 
+
+# 🚀 Smart Contract Deployment - Lisk Sepolia Testnet
+
+This contract is successfully deployed on the **Lisk Sepolia Testnet** using the OP Stack.
+Below are the contract details and associated transactions.
+
+---
+
+## 📄 Contract Address
+
+```
+0x47C20dD1a64F91c0A3590f98266DEABE3536b0A4
+```
+
+🔗 [View on Lisk Sepolia Explorer](https://sepolia-blockscout.lisk.com/address/0x47C20dD1a64F91c0A3590f98266DEABE3536b0A4)
+
+---
+
+## 🔧 Contract Creator
+
+```
+0x37...cC7d
+```
+
+📦 Deployed in txn: [`0xea...cd74`](https://sepolia-blockscout.lisk.com/tx/0xea0e0b...cd74)
+
+---
+
+## ✅ Transactions
+
+| Txn Hash | Method       | Block      | Status   | ETH Value | Fee (ETH) |
+|----------|--------------|------------|----------|-----------|-----------|
+| [`0xe62c...0af7`](https://sepolia-blockscout.lisk.com/tx/0xe62cc1c116...0af7) | `0xe886dade` | `24492824` | ✅ Success | `0.005062` | `0.00000011` |
+| [`0xa56f...1646`](https://sepolia-blockscout.lisk.com/tx/0xa56fa98c86...1646) | `0xe886dade` | `24492678` | ✅ Success | `0.004788` | `0.00000017` |
+
+---
+
+
+
+
 ## 🧪 Testing
 
 ### Unit Tests
